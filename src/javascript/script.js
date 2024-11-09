@@ -25,7 +25,7 @@ $(document).ready(function() {
             const sectionBottom = sectionTop+ section.outerHeight();
 
             if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
-                activeSectionIndex = i + 1;
+                activeSectionIndex = i;
                 return false;
             }
         })
