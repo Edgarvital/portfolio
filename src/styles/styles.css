@@ -16,6 +16,7 @@
 
     --color-neutral-0: #fff;
     --color-neutral-1: #1d1d1d;
+    --color-neutral-2: #b3cebb;
 }
 
 * {
@@ -30,6 +31,14 @@
 
   html {
     scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: var(--color-neutral-1);
+
 }
 
 body {
@@ -77,7 +86,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--color-primary-text);
+    background-color: var(--color-neutral-0);
     border-radius: 12px;
     padding: 10px 14px;
     font-weight: 600;
@@ -87,7 +96,7 @@ section {
 }
 
 .btn-default:hover {
-    background-color: var(--color-primary-3);
+    background-color: var(--color-neutral-2);
 }
 
 .social-media-buttons {
@@ -115,10 +124,10 @@ section {
 }
 
 .section-title {
-    color: var(--color-primary-6);
-    font-size: 1.563rem;
+    color: var(--color-active-text);
+    font-size: 2.1875rem;
 }
 
 .section-subtitle {
-    font-size: 2.1875rem;
+    font-size: 1.563rem;
 } 

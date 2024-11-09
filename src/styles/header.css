@@ -1,17 +1,20 @@
 header {
     width: 100%;
     padding: 28px 8%;
+    box-sizing: border-box;
     position: sticky;
     top: 0;
     background-color: var(--color-primary-1);
     z-index: 3;
 }
 
+
 #navbar {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative; /* Isso ajuda a garantir que o conteúdo dentro do navbar fique bem posicionado */
 }
 
 #nav_logo {
