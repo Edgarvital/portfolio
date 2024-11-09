@@ -40,7 +40,7 @@ $(document).ready(function() {
         distance: '20%'
     });
 
-    ScrollReveal().reveal('.dish', {
+    ScrollReveal().reveal('#carousel_systems', {
         origin: 'left',
         duration: 2000,
         distance: '20%'
