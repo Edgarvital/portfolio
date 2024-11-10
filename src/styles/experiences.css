@@ -52,18 +52,24 @@
 .experience-icon {
     width: 100px;
     height: 100px;
+    min-width: 100px;
+    max-width: 100px;
     object-fit: cover;
 }
 
 .experience-icon-big {
     width: 150px;
     height: 90px;
+    min-width: 150px;
+    max-width: 150px;
     object-fit: fill;
 }
 
 .experience-icon-big-uniform {
     width: 150px;
     height: 150px;
+    min-width: 150px;
+    max-width: 150px;
     object-fit: fill;
 }
 
