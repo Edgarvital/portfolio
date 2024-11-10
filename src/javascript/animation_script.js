@@ -25,7 +25,7 @@ $(document).ready(function() {
             const sectionBottom = sectionTop+ section.outerHeight();
 
             if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
-                activeSectionIndex = i;
+                activeSectionIndex = i + 1;
                 return false;
             }
         })
@@ -41,20 +41,20 @@ $(document).ready(function() {
     });
 
     ScrollReveal().reveal('#carousel_systems', {
-        origin: 'left',
+        origin: 'right',
         duration: 2000,
-        distance: '20%'
+        distance: '50%'
     });
 
     ScrollReveal().reveal('#testimonial_chef', {
         origin: 'left',
         duration: 1000,
-        distance: '20%'
+        distance: '50%'
     })
 
-    ScrollReveal().reveal('.feedback', {
-        origin: 'right',
+    ScrollReveal().reveal('.experience', {
+        origin: 'left',
         duration: 1000,
-        distance: '20%'
+        distance: '50%'
     })
 });

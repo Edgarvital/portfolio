@@ -36,7 +36,7 @@ header {
 .nav-item a {
     text-decoration: none;
     color: var(--color-primary-text);
-    font-weight: 1000;
+    font-weight: 200;
 }
 
 .nav-item.active a {

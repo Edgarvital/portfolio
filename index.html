@@ -124,63 +124,126 @@
         
 
         <section id="experiences">
-            <img src="src/images/chef.png" id="testimonial_chef" alt="">
-
-            <div id="testimonials_content">
-                <h2 class="section-title">
-                    Experiências
+            <div id="experiences_content">
+                <h2 class="section-title" style="text-align: center;">
+                    Experiência
                 </h2>
-                <h3 class="section-subtitle">
-                    Acadêmicas e Profissionais
+                <h3 class="section-subtitle" style="text-align: center;">
+                    Acadêmica e Profissional
                 </h3>
-
-                <div id="feedbacks">
-                    <div class="feedback">
-                        <img src="src/images/avatar.png" class="feedback-avatar" alt="">
-
-                        <div class="feedback-content">
-                            <p>
-                                Fulana de Tal
-                                <span>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </span>
-                            </p>
-                            <p>
-                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Repellat voluptatibus cumque dolor ea est quae alias necessitatibus"
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="feedback">
-                        <img src="src/images/avatar.png" class="feedback-avatar" alt="">
-
-                        <div class="feedback-content">
-                            <p>
-                                Fulana de Tal
-                                <span>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </span>
-                            </p>
-                            <p>
-                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Repellat voluptatibus cumque dolor ea est quae alias necessitatibus"
-                            </p>
-                        </div>
-                    </div>
+        
+                <div class="tabs">
+                    <button class="tab-button active" data-tab="academic">Acadêmica</button>
+                    <button class="tab-button" data-tab="professional">Profissional</button>
                 </div>
+        
+                <div class="tab-content" id="academic">
 
-                <button class="btn-default">
-                    Ver mais avaliações
-                </button>
+                    <div class="experience">
+                        <img src="src/images/ufape_brasao.png" class="experience-icon" alt="">
+
+                        <div class="experience-content">
+                            <p>
+                                Universidade Federal do Agreste de Pernambuco(UFAPE)
+                                <br>
+                                <i>2018 - 2023</i>                        
+                            </p>
+                        
+                            <p>
+                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Repellat voluptatibus cumque dolor ea est quae alias necessitatibus"
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="experience">
+                        <img src="src/images/ifpe-logo.svg" class="experience-icon" alt="">
+
+                        <div class="experience-content">
+                            <p>
+                                Instituto Federal de Pernambuco(IFPE)
+                                <br>
+                                <i>2013 - 2017</i>                        
+                            </p>
+                            
+                            <p>
+                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Repellat voluptatibus cumque dolor ea est quae alias necessitatibus"
+                            </p>
+                        </div>
+                    </div>
+            
+
+                </div>
+        
+                <div class="tab-content" id="professional" style="display: none;">
+
+                    <div class="experience">
+                        <img src="src/images/overdrive-logo.png" class="experience-icon-big-uniform" alt="">
+
+                        <div class="experience-content">
+                            <p>
+                                Overdrive Softwares e Consultoria
+                                <br>
+                                <i>Fev 2023 - Presente momento</i>  
+                            </p>
+                            
+                            <p>
+                                Com o fim da minha graduação, chegou o momento de entrar de fato no mercado de trabalho. Fui contratado pela Overdrive Softwares e Desenvolvimento como desenvolvedor back-end pleno para trabalhar no time de produtos internos da empresa. Meu primeiro projeto foi o desenvolvimento de um sistema de limpeza industrial, onde criei uma API RESTful para integrar duas stacks: Front-end e Mobile. A implementação dessa API apresentou um desafio significativo: cada empresa cadastrada no sistema precisava ter sua própria instância de banco de dados, o que exigiu a criação de uma arquitetura de multi-tenancy físico. Para superar essa dificuldade, estudei soluções de segmentação de dados e gerenciamento de múltiplos bancos em servidores SQL, desenvolvendo e implementando a arquitetura de forma funcional em poucas semanas.</br></br>
+
+Após concluir o desenvolvimento desse sistema, surgiu a necessidade de manutenção em um dos sistemas de um cliente, que utilizava a linguagem C#. Isso me proporcionou a oportunidade de ampliar meus conhecimentos com outro framework backend, o .NET. Trabalhar com .NET (C#) foi uma transição suave devido à estrutura similar de conceitos fundamentais entre as linguagens e frameworks. Durante esse período, desenvolvi serviços RESTful, otimizei operações de banco de dados com Entity Framework e implementei práticas de injeção de dependência e arquitetura limpa (Clean Architecture) para garantir a escalabilidade e manutenibilidade do código.</br></br>
+
+Atualmente, a Overdrive está explorando uma nova estratégia para entrar no mercado mobile. Nesse contexto, recebi a oportunidade de trabalhar em uma stack diferente da que utilizava habitualmente. Foi proposto que eu desenvolvesse um jogo utilizando Flutter (Dart), que me permitiu atuar tanto no back-end quanto no front-end mobile. Flutter se destacou pela sua capacidade de desenvolver aplicações multiplataforma de forma eficiente, utilizando uma base de código unificada. Essa experiência tem sido empolgante e produtiva para minha carreira, pois exigiu que eu implementasse interfaces responsivas, gerenciasse o estado da aplicação com o uso de pacotes como Provider e integrou funcionalidades de backend o sqlite para armazenar os dados internamento no dispositivo dos usuários. O jogo, chamado Game Studio Manager, já está disponível na Google Play Store e, em breve, será lançado para dispositivos Apple.
+
+
+                            </p>
+                        </div>
+                    </div>                    
+                
+                    <div class="experience">
+                        <img src="src/images/sec-saude-logo.png" class="experience-icon-big" alt="">
+
+                        <div class="experience-content">
+                            <p>
+                                Secretária de Saúde de Garanhuns
+                                <br>
+                                <i>Jun 2021 - Dez 2022(1 ano e 6 meses)</i>  
+                            </p>
+                            
+                            <p>
+                                Atuei como Desenvolvedor Full Stack, liderando o desenvolvimento de soluções em projetos internos da Secretaria da Saúde, utilizando o framework Laravel (PHP) e a arquitetura proposta pelo próprio framework (MVC), que já garante robustez e qualidade de código. No frontend, trabalhei com a ferramenta Blade, também nativa do Laravel, e a biblioteca jQuery para criar interfaces dinâmicas e responsivas, proporcionando uma experiência de usuário intuitiva.</br></br>
+
+Durante esse período, tive a oportunidade de aprofundar meus conhecimentos em levantamento de requisitos, entendendo as necessidades específicas dos departamentos e propondo soluções que otimizassem os fluxos de trabalho. Além disso, desenvolvi lógica de programação avançada e manipulei dados complexos com SQL, o que foi essencial para a criação de relatórios e análises detalhadas, garantindo a precisão e acessibilidade das informações de saúde.</br></br>
+
+O sistema principal no qual atuei dando manutenção foi o "Vem Vacina Garanhuns", que, em específico, gerou diversos desafios para garantir performance diante de uma grande quantidade de dados e volume de acessos à plataforma em meio à pandemia de Covid-19. Esse sistema ganhou alguns prêmios regionais e atendeu à população do município, auxiliando na solicitação de vacinas.
+                            </p>
+                        </div>
+                    </div>    
+                    
+                    <div class="experience">
+                        <img src="src/images/lmts-color.png" class="experience-icon-big" alt="">
+
+                        <div class="experience-content">
+                            <p>
+                                Laboratório Multidisciplinar de Tecnologias Sociais(LMTS)
+                                <br>
+                                <i>Out 2020 - Dez 2022(2 anos e 2 meses)</i>  
+                            </p>
+                            
+                            <p>
+                                O LMTS foi minha porta de entrada para o profissionalismo, permitindo-me colocar em prática os conhecimentos adquiridos ao longo dos anos e refinando minhas habilidades por meio dos desafios diários e desafiadores que me foram entregues. Meu primeiro projeto no laboratório foi o desenvolvimento de um sistema de Almoxarifado, que hoje atende tanto a UFAPE quanto a UPE do município de Garanhuns. Esse projeto, em específico, reuniu uma equipe multidisciplinar, composta por profissionais da área que atuam diretamente com Almoxarifado, além da equipe do laboratório, que envolveu integrantes de ambas as faculdades beneficiadas.</br></br>
+
+Em grande parte da minha jornada, atuei como Desenvolvedor Web Full Stack, onde modelei, desenvolvi e dei manutenção a diversos sistemas que hoje atendem à comunidade. Como principal tecnologia, utilizei o framework Laravel (PHP), escolhido pelo laboratório por ser robusto, fácil de utilizar, ter bom suporte ao desenvolvedor e, principalmente, por ter uma metodologia de desenvolvimento web voltada para esse framework. Para a parte visual, o próprio Laravel possui um gerenciador de templates chamado Blade, que também é fácil de ser utilizado e permite o reuso de código graças à sua estrutura de templates. Como complemento, utilizei jQuery para dar dinamicidade aos sites, em conjunto com o Bootstrap, que facilita a estilização e personalização dos layouts.</br></br>
+
+Com o tempo e a entrada de novos integrantes no laboratório, fui designado para o papel de gerente de projetos, onde atuei diretamente em todos os sistemas web que o laboratório desenvolvia e mantinha na época, mesmo que indiretamente. Meu papel envolvia cuidar do ciclo de desenvolvimento, utilizando uma metodologia de SCRUM adaptada à realidade do laboratório, servir como Tech Lead, ensinando e orientando os desenvolvedores na criação de código bem estruturado e, principalmente, na parte inicial do aprendizado de cada aluno, além de avaliar pull requests antes do deploy das novas funcionalidades.
+
+
+                            </p>
+                        </div>
+                    </div>
+
+
+                </div>
             </div>
         </section>
     </main>
@@ -207,6 +270,7 @@
 
     <script src="src/javascript/animation_script.js"></script>
     <script src="src/javascript/carrossel_script.js"></script>
+    <script src="src/javascript/tabs_script.js"></script>
 
 </body>
 </html>
