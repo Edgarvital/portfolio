@@ -12,14 +12,14 @@
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-    background-color: var(--color-neutral-2);
+    background-color: var(--color-neutral-0);
     color: var(--color-neutral-1);
     border-radius: 5px;
     min-width: 15%;
     font-weight: 800;
 }
 .tab-button.active {
-    background-color: var(--color-neutral-0);
+    background-color: var(--color-neutral-2);
     color: var(--color-neutral-1);
     font-weight: 800;
 }
