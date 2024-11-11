@@ -18,6 +18,12 @@
     min-width: 15%;
     font-weight: 800;
 }
+
+.p-title {
+    margin-bottom: 16px;
+    font-size: larger;
+}
+
 .tab-button.active {
     background-color: var(--color-neutral-2);
     color: var(--color-neutral-1);

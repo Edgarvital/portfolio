@@ -6,21 +6,18 @@ $(document).ready(function() {
         const slides = $('.carousel-item');
         const totalSlides = slides.length;
         
-        // Calculando o próximo índice, garantindo que seja um valor válido (circular)
         currentIndex = (currentIndex + direction + totalSlides) % totalSlides;
 
-        // Movendo o carrossel para o slide atual
         $('.carousel-slide').css('transform', `translateX(-${currentIndex * 100}%)`);
     }
 
-    moveSlide(0); // Inicia o carrossel mostrando o primeiro slide
+    moveSlide(0); 
 
-    // Função para alternar entre os itens do carrossel ao clicar nos botões de navegação
     $('.prev').on('click', function() {
-        moveSlide(-1);  // Mover para o slide anterior
+        moveSlide(-1); 
     });
 
     $('.next').on('click', function() {
-        moveSlide(1);  // Mover para o próximo slide
+        moveSlide(1);
     });
 });
