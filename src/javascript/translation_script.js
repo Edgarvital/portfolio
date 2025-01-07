@@ -39,7 +39,7 @@ const translations = {
                                 Para Requerentes: editar perfil e senha; fazer solicitações de materiais; consultar
                                 histórico de pedidos.`,
         system_certification: `Certificado do Sistema`,
-        system_link: `Certificado do Sistema`,
+        system_link: `Link do Sistema`,
         submeta: `Sistema de Submissão de Projetos (Submeta)`,
         submeta_description: `O Submeta é um sistema de submissão de projetos acadêmicos, que pode ser adotado para os
                                 diferentes propósitos de Ensino, Pesquisa e Extensão. O sistema abrange todas as
@@ -472,7 +472,7 @@ function updateContent(language) {
     $("#experience").html(translations[language].experience);
     $("#academic_and_professional").html(translations[language].academic_and_professional);
     $("#academic_btn").html(translations[language].academic);
-    $("#professional_btn").html(translations[language].professional);
+    $("#professional").html(translations[language].professional);
     $("#ufape").html(translations[language].ufape);
     $("#ifpe").html(translations[language].ifpe);
     $("#overdrive").html(translations[language].overdrive);
