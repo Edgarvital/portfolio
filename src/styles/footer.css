@@ -1,16 +1,26 @@
 footer {
-    background-color: var(--color-primary-1);
+    margin-top: 2rem;
+    background: linear-gradient(180deg, rgba(8, 15, 16, 0), rgba(8, 15, 16, 0.96));
+    border-top: 1px solid var(--border-soft);
+}
+
+footer img {
+    display: block;
+    width: 100%;
+    opacity: 0.9;
 }
 
 #footer_items {
     display: flex;
     justify-content: space-between;
-    padding: 0px 8% 24px 8%;
+    width: min(1240px, calc(100% - 2rem));
+    margin: 0 auto;
+    padding: 0 0 24px;
     align-items: center;
 }
 
 #copyright {
-    color: var(--color-neutral-0);;
+    color: rgba(244, 247, 245, 0.78);
     font-weight: 500;
 }
 

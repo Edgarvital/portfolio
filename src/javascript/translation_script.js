@@ -1,6 +1,14 @@
 // Objeto com as traduções
 const translations = {
     "pt-br": {
+        hero_eyebrow: `Portfólio de Software`,
+        hero_summary: `Desenvolvo sistemas web, mobile e backend com foco em arquitetura, confiabilidade, segurança e impacto real.`,
+        hero_highlight_1_label: `Atuação principal`,
+        hero_highlight_1_value: `Backend · Full Stack · Mobile`,
+        hero_highlight_2_label: `Experiência`,
+        hero_highlight_2_value: `Atuando com software desde 2013`,
+        hero_highlight_3_label: `Foco atual`,
+        hero_highlight_3_value: `Arquitetura, aplicações críticas e evolução de produtos`,
         nav_presentation: `Apresentação`,
         nav_systems: `Sistemas`,
         nav_experience: `Experiências`,
@@ -8,8 +16,11 @@ const translations = {
             Minha trajetória na área de tecnologia começou em 2013, aos 14 anos, quando ingressei no curso Técnico em Informática no Instituto Federal de Pernambuco (IFPE). Durante os quatro anos de formação, adquiri uma base sólida em desenvolvimento de software, abrangendo diferentes stacks, como mobile, web, front-end, desktop e sistemas embarcados. Meu trabalho de conclusão de curso explorou sistemas embarcados, demonstrando minha capacidade de inovar em áreas diversas.<br>
             Após concluir o técnico, iniciei minha graduação em Ciência da Computação na Universidade Federal do Agreste de Pernambuco (UFAPE), onde continuei ampliando meus conhecimentos. Durante esse período, tive meu primeiro contato profissional no Laboratório Multidisciplinar de Tecnologias Sociais (LMTS), onde desenvolvi sistemas institucionais e sociais utilizando o framework Laravel (PHP) integrado com Blade e JQuery.<br>
             Em 2021, durante a pandemia, fui contratado pela Secretaria de Saúde de Garanhuns para liderar o desenvolvimento e a manutenção do Vem Vacina Garanhuns, um sistema crucial no combate à COVID-19, que beneficiou mais de 100 mil habitantes. Essa experiência fortaleceu minha expertise em modelagem e manutenção de sistemas de grande impacto social.<br>
-            Atualmente, atuo na Overdrive Software e Consultoria, onde integro o time de produtos internos. Iniciei desenvolvendo o back-end de sistemas utilizando Laravel (PHP) e posteriormente expandi minhas habilidades com .NET (C#). Recentemente, foquei no desenvolvimento mobile com Flutter (Dart), criando e mantendo aplicações robustas, incluindo um jogo que demonstra minha habilidade em atender demandas inovadoras.
-            Com ampla experiência em linguagens de programação como Java, PHP, Dart, C#, C, Python e Ruby, meu percurso reflete um compromisso com aprendizado contínuo e adaptação às tecnologias mais relevantes para atender às necessidades do mercado.
+            Atualmente, atuo na Overdrive Software e Consultoria, onde integro o time de produtos internos. Iniciei desenvolvendo o back-end de sistemas utilizando Laravel (PHP) e posteriormente expandi minhas habilidades com .NET (C#). Recentemente, foquei no desenvolvimento mobile com Flutter (Dart), criando e mantendo aplicações robustas, incluindo um jogo que demonstra minha habilidade em atender demandas inovadoras.<br>
+
+            Em paralelo à atuação profissional, iniciei o mestrado em Ciência da Computação com foco em segurança em ecossistemas Kubernetes. A pesquisa investiga o impacto de contramedidas como Zero Trust, mTLS, políticas de rede e gestão segura de credenciais sobre a latência de sistemas distribuídos, usando um jogo multiplayer poliglota como ambiente experimental.<br>
+
+            Com ampla experiência em linguagens de programação como Java, PHP, Dart, C#, C, Python e Ruby, meu percurso reflete um compromisso com aprendizado contínuo, rigor técnico e adaptação às tecnologias mais relevantes para atender às necessidades do mercado e da pesquisa aplicada.
         `,
         title: `Apresentando, <span>Edgar Vital</span>`,
         technical_information: `Informações Técnicas`,
@@ -27,6 +38,19 @@ const translations = {
         new_technologies_adaptation: `Adaptabilidade a Novas Tecnologias`,
         systems: `Sistemas`,
         act_as_colaborator_in: `Atuei como colaborador em...`,
+        masters: `<p class="p-title">
+                                Mestrado em Ciência da Computação na UFAPE
+                                <br>
+                                <i>2025 - 2027 (Em andamento)</i>
+                            </p>
+
+                            <p>
+                                Minha pesquisa de mestrado investiga, de forma empírica, vulnerabilidades em arquiteturas de microsserviços orquestradas por Kubernetes. O estudo utiliza um jogo multiplayer desenvolvido em arquitetura poliglota, com serviços em C# e Golang, como ambiente de laboratório para avaliar estratégias de proteção de infraestrutura em cenários de tempo real.
+                            </p>
+
+                            <p>
+                                A metodologia está estruturada em três frentes complementares: mapeamento da superfície de ataque do cluster com ferramentas como Kube-hunter e Kube-bench; hardening da infraestrutura com práticas de Zero Trust, autenticação mTLS, isolamento de rede e gestão segura de credenciais com HashiCorp Vault; e análise de impacto, comparando o ganho de segurança com o custo de latência e desempenho imposto às aplicações. O objetivo é consolidar diretrizes práticas para ambientes seguros, otimizados e alinhados às demandas de sistemas distribuídos modernos.
+                            </p>`,
         pega: `Plataforma Eletrônica de Gestão de Almoxarifados (PEGA)`,
         pega_description: `É uma aplicação web criada pela parceria UFAPE-LMTS/UPE para informatizar a gestão de
                                 almoxarifados, facilitando tarefas como controle de estoque e atendimento de pedidos de
@@ -93,216 +117,76 @@ const translations = {
         academic: `Acadêmica`,
         professional: `Profissional`,
         ufape: `<p class="p-title">
-                                Universidade Federal do Agreste de Pernambuco(UFAPE)
+                                Graduação em Ciência da Computação na Universidade Federal Rural de Pernambuco (UFRPE) e UFAPE
                                 <br>
                                 <i>2018 - 2023</i>
                             </p>
 
                             <p>
-                                A UFAPE representou a continuação natural da minha jornada profissional. Ao sair do
-                                IFPE, ainda não tinha uma certeza absoluta sobre a área específica em que gostaria de
-                                atuar, mas sabia que queria trabalhar com tecnologia. O curso de Ciência da Computação
-                                surgiu como a opção mais viável, pois proporciona uma visão ampla sobre os mais diversos
-                                aspectos da computação e suas áreas correlatas. Um dos primeiros desafios da graduação
-                                foi lidar com a carga pesada de disciplinas matemáticas, como Cálculo 1 e 2, além de
-                                Física e Geometria Analítica. Superar essa etapa inicial, com matérias de base complexa,
-                                foi fundamental para alcançar a parte tecnológica do curso, que se intensifica a partir
-                                dos períodos mais avançados.</br></br>
+                                A graduação foi a continuação natural da minha formação técnica e me proporcionou visão ampla sobre redes, sistemas distribuídos, escalabilidade e projeto e análise de algoritmos. Disciplinas como Engenharia de Software foram fundamentais para aprimorar práticas de gerenciamento de projetos e metodologias ágeis.
 
-                                O curso foi, em muitos aspectos, um aprofundamento dos conhecimentos que já havia
-                                adquirido no IFPE, mas também me expôs a novas disciplinas que expandiram meu
-                                entendimento e me trouxeram um repertório mais robusto. Áreas como Redes de
-                                Computadores, onde aprendi sobre protocolos, arquiteturas de rede e segurança; Sistemas
-                                Distribuídos, com foco em escalabilidade e comunicação entre sistemas; e Projeto e
-                                Análise de Algoritmos, que aprimorou minha capacidade de desenvolver soluções
-                                eficientes, foram algumas das matérias que se destacaram. Outras disciplinas importantes
-                                incluíram Empreendedorismo, que ampliou minha visão sobre inovação e criação de
-                                produtos, e Compiladores, que me proporcionou uma compreensão mais profunda sobre a
-                                construção e funcionamento das linguagens de programação. A Engenharia de Software, por
-                                sua vez, foi essencial para refinar minhas habilidades em gerenciamento de projetos,
-                                documentação e aplicação de metodologias como SCRUM e práticas de desenvolvimento
-                                ágil.</br></br>
-
-                                No decorrer do curso, encontrei a direção que desejava para a minha carreira quando
-                                ingressei no Laboratório Multidisciplinar de Tecnologias Sociais (LMTS). Essa
-                                experiência me aproximou ainda mais da programação, uma área na qual tenho facilidade
-                                devido à minha experiência prévia. O desenvolvimento e a resolução de problemas por meio
-                                da criação de sistemas rapidamente se tornaram a minha paixão. No LMTS, pude colaborar
-                                tanto com a comunidade acadêmica quanto com a população de Garanhuns, contribuindo com
-                                inovações tecnológicas que trouxeram benefícios práticos e melhoraram processos
-                                existentes. Dediquei os anos restantes da graduação a esse propósito, aprimorando minhas
-                                habilidades como desenvolvedor e participando ativamente em dezenas de projetos, atuando
-                                em diferentes etapas do ciclo de desenvolvimento, desde a concepção e prototipagem até a
-                                implementação e manutenção.</br></br>
-
-                                Meu trabalho de conclusão de curso foi, na verdade, o primeiro projeto em que trabalhei
-                                ao entrar no LMTS: a Plataforma Eletrônica de Gestão de Almoxarifados. Este projeto foi
-                                uma oportunidade de aplicar conceitos avançados de desenvolvimento de software, como a
-                                criação de APIs RESTful seguras, práticas de versionamento de código e uso de frameworks
-                                robustos. Mais detalhes sobre esse sistema estão registrados na seção de sistemas deste
-                                portfólio.
-
+                                Durante o curso, ingressei no Laboratório Multidisciplinar de Tecnologias Sociais (LMTS), onde dediquei grande parte da graduação ao desenvolvimento de sistemas institucionais e soluções para a comunidade. Meu Trabalho de Conclusão de Curso (TCC) foi focado no aprimoramento da Plataforma Eletrônica de Gestão de Almoxarifados, aplicando conceitos avançados de APIs RESTful e arquitetura de software.
 
                             </p>`,
         ifpe: `<p class="p-title">
-                                Instituto Federal de Pernambuco(IFPE)
+                                Técnico em Informática no IFPE
                                 <br>
                                 <i>2013 - 2017</i>
                             </p>
 
                             <p>
-                                O IFPE marcou o início da minha jornada na programação, onde tive meu primeiro contato
-                                com lógica de programação através do software Robô Mind. Esse programa apresentava um
-                                ambiente lúdico em forma de jogo, onde o objetivo era controlar um robô para resolver
-                                desafios lógicos, como mover-se de um ponto a outro e sair de um labirinto de forma
-                                recursiva. Esse aprendizado inicial foi essencial para desenvolver o raciocínio lógico
-                                necessário para a programação.</br></br>
+                                O IFPE marcou o início da minha jornada na programação, onde fui apresentado à lógica computacional e à linguagem Java. Aprendi programação orientada a objetos, engenharia de requisitos, modelagem UML e desenvolvimento de interfaces com Java Swing e PrimeFaces (JSF).
 
-                                Posteriormente, fui introduzido à linguagem de programação Java, que me acompanhou
-                                durante os quatro anos do curso. Inicialmente, desenvolvi programas focados apenas no
-                                processamento de informações, com saídas textuais impressas no terminal. Com o tempo,
-                                essa prática evoluiu para a criação de interfaces gráficas básicas utilizando a
-                                biblioteca Swing do Java, que permitia a criação de janelas e componentes visuais, como
-                                botões, caixas de texto e painéis, facilitando a integração entre a lógica de
-                                manipulação de dados e uma interface de usuário mais amigável.</br></br>
-
-                                Durante o curso, também fui inserido no contexto de Engenharia de Requisitos, aprendendo
-                                técnicas de levantamento de requisitos, análise de casos de uso e modelagem de software
-                                com diagramas UML, conhecimentos que são úteis até hoje. Além disso, estudei conceitos
-                                de banco de dados relacionais, incluindo a normalização de dados e a construção de
-                                consultas SQL complexas. Simultaneamente, tive meu primeiro contato com o
-                                desenvolvimento web, utilizando o PrimeFaces – uma biblioteca de componentes para
-                                JavaServer Faces (JSF) – que possibilitava a criação de interfaces web ricas e
-                                interativas, e foi complementada por tecnologias auxiliares como CSS e JavaScript para
-                                melhorar a experiência do usuário.</br></br>
-
-                                Ao longo de todo o curso, o foco em programação orientada a objetos foi constante, um
-                                conceito que é a base do Java e que influenciou fortemente meu desenvolvimento como
-                                programador. Compreender e aplicar os pilares da orientação a objetos (encapsulamento,
-                                herança, polimorfismo e abstração) tornou-se uma habilidade fundamental que continuo
-                                utilizando em projetos atuais.</br></br>
-
-                                Meu trabalho de conclusão de curso foi uma oportunidade excelente para colocar todos
-                                esses conhecimentos em prática e resolver um problema real. Garanhuns, sendo uma cidade
-                                semi-rural, tem muitos sítios nos arredores onde a geração de gás de cozinha é feita por
-                                meio de biodigestores. Esses biodigestores utilizam dejetos animais como combustível
-                                para um processo bacteriano que resulta na produção de gás de cozinha. O curso de Meio
-                                Ambiente do IFPE buscava mensurar a eficiência dessa geração, e foi aí que meu trabalho
-                                entrou em cena. Juntamente com meu grupo, desenvolvemos um sistema de medição da vazão
-                                de gás usando uma placa de Arduino, sensores de pressão e componentes eletrônicos de
-                                baixo custo, integrados a um programa em C/C++ que coletava e processava os dados em
-                                tempo real. Esse sistema proporcionou uma forma acessível e eficaz de monitorar a
-                                produção de gás, contribuindo para a pesquisa e melhor uso dessa tecnologia pela
-                                população local.
+                                No TCC do curso técnico desenvolvi um sistema em C/C++ integrado a um Arduino e sensores de pressão para medir, em tempo real, a eficiência da geração de gás de cozinha em biodigestores locais, contribuindo para pesquisas do curso de Meio Ambiente.
                             </p>`,
         overdrive: `<p class="p-title">
                                 Overdrive Softwares e Consultoria
                                 <br>
-                                <i>Fev 2023 - Presente momento</i>
+                                <i>Fev 2023 - Abr 2026(3 anos e 3 meses)</i>
                             </p>
 
                             <p>
-                                Com o fim da minha graduação, chegou o momento de entrar de fato no mercado de trabalho.
-                                Fui contratado pela Overdrive Softwares e Desenvolvimento como desenvolvedor back-end
-                                pleno para trabalhar no time de produtos internos da empresa. Meu primeiro projeto foi o
-                                desenvolvimento de um sistema de limpeza industrial, onde criei uma API RESTful para
-                                integrar duas stacks: Front-end e Mobile. A implementação dessa API apresentou um
-                                desafio significativo: cada empresa cadastrada no sistema precisava ter sua própria
-                                instância de banco de dados, o que exigiu a criação de uma arquitetura de multi-tenancy
-                                físico. Para superar essa dificuldade, estudei soluções de segmentação de dados e
-                                gerenciamento de múltiplos bancos em servidores SQL, desenvolvendo e implementando a
-                                arquitetura de forma funcional em poucas semanas.</br></br>
+                                Com o fim da minha graduação, iniciei minha trajetória na Overdrive Softwares e Consultoria como Desenvolvedor Back-End Pleno, atuando no time de produtos internos. Meu primeiro projeto foi o desenvolvimento de um sistema de limpeza industrial, onde criei uma API RESTful robusta para integrar o front-end e o mobile. A implementação exigiu uma arquitetura de multi-tenancy físico com PostgreSQL para isolar os dados de cada cliente no sistema, além da configuração de ambientes com Docker e integração com AWS S3 para armazenamento.
 
-                                Após concluir o desenvolvimento desse sistema, surgiu a necessidade de manutenção em um
-                                dos sistemas de um cliente, que utilizava a linguagem C#. Isso me proporcionou a
-                                oportunidade de ampliar meus conhecimentos com outro framework backend, o .NET.
-                                Trabalhar com .NET (C#) foi uma transição suave devido à estrutura similar de conceitos
-                                fundamentais entre as linguagens e frameworks. Durante esse período, desenvolvi serviços
-                                RESTful, otimizei operações de banco de dados com Entity Framework e implementei
-                                práticas de injeção de dependência e arquitetura limpa (Clean Architecture) para
-                                garantir a escalabilidade e manutenibilidade do código.</br></br>
+                                Posteriormente, assumi a manutenção e desenvolvimento em sistemas da carteira de clientes da empresa, como SolAgora e Banco Money Plus, utilizando a linguagem C# e o framework .NET. Essa transição me permitiu consolidar conhecimentos no desenvolvimento de serviços RESTful, otimizar operações com Entity Framework e implementar práticas de Clean Architecture para garantir a escalabilidade do código.
 
-                                Atualmente, a Overdrive está explorando uma nova estratégia para entrar no mercado
-                                mobile. Nesse contexto, recebi a oportunidade de trabalhar em uma stack diferente da que
-                                utilizava habitualmente. Foi proposto que eu desenvolvesse um jogo utilizando Flutter
-                                (Dart), que me permitiu atuar tanto no back-end quanto no front-end mobile. Flutter se
-                                destacou pela sua capacidade de desenvolver aplicações multiplataforma de forma
-                                eficiente, utilizando uma base de código unificada. Essa experiência tem sido empolgante
-                                e produtiva para minha carreira, pois exigiu que eu implementasse interfaces
-                                responsivas, gerenciasse o estado da aplicação com o uso de pacotes como Provider e
-                                integrou funcionalidades de backend o sqlite para armazenar os dados internamento no
-                                dispositivo dos usuários. O jogo, chamado Game Studio Manager, já está disponível na
-                                Google Play Store e, em breve, será lançado para dispositivos Apple.
+                                Como a empresa explorava novas estratégias de mercado, recebi a oportunidade de atuar também como Desenvolvedor Mobile Pleno, construindo aplicações nativas multiplataforma com Flutter e Dart. Nesse contexto, participei da estruturação do FitEasyAI, um aplicativo integrado à API da OpenAI e ao Firebase, e do Game Studio Manager, o primeiro título de simulação da companhia. Destaca-se também minha atuação no aplicativo bancário white-label do Banco Money Plus, onde lidei com componentes complexos, consumo de APIs financeiras de alta segurança, persistência local com SQLite e gerenciamento de estado utilizando Provider e arquitetura MVVM.
 
-
+                                Em abril de 2026, concluí minha jornada na Overdrive, encerrando um ciclo de extremo crescimento. Essa experiência de mais de três anos me permitiu transitar com fluidez entre a engenharia back-end e front-end mobile, entregando valor de ponta a ponta e me preparando técnica e estrategicamente para assumir novos desafios na construção de soluções escaláveis.
                             </p>`,
         saude: `<p class="p-title">
-                                Secretária de Saúde de Garanhuns
+                                Secretaria Municipal da Saúde de Garanhuns
                                 <br>
-                                <i>Jun 2021 - Dez 2022(1 ano e 6 meses)</i>
+                                <i>Jun 2021 - Jan 2023 (1 ano e 8 meses)</i>
                             </p>
 
                             <p>
-                                Atuei como Desenvolvedor Full Stack, liderando o desenvolvimento de soluções em projetos
-                                internos da Secretaria da Saúde, utilizando o framework Laravel (PHP) e a arquitetura
-                                proposta pelo próprio framework (MVC), que já garante robustez e qualidade de código. No
-                                frontend, trabalhei com a ferramenta Blade, também nativa do Laravel, e a biblioteca
-                                jQuery para criar interfaces dinâmicas e responsivas, proporcionando uma experiência de
-                                usuário intuitiva.</br></br>
+                                Atuei como Desenvolvedor Full Stack, liderando o desenvolvimento de soluções em projetos internos da Secretaria da Saúde. Utilizei o framework Laravel (PHP) sob a arquitetura MVC para garantir robustez e qualidade de código. No frontend, trabalhei com ferramentas nativas como Blade, além de HTML, CSS, JavaScript e jQuery, criando interfaces dinâmicas e responsivas.
 
-                                Durante esse período, tive a oportunidade de aprofundar meus conhecimentos em
-                                levantamento de requisitos, entendendo as necessidades específicas dos departamentos e
-                                propondo soluções que otimizassem os fluxos de trabalho. Além disso, desenvolvi lógica
-                                de programação avançada e manipulei dados complexos com SQL, o que foi essencial para a
-                                criação de relatórios e análises detalhadas, garantindo a precisão e acessibilidade das
-                                informações de saúde.</br></br>
-
-                                O sistema principal no qual atuei dando manutenção foi o "Vem Vacina Garanhuns", que, em
-                                específico, gerou diversos desafios para garantir performance diante de uma grande
-                                quantidade de dados e volume de acessos à plataforma em meio à pandemia de Covid-19.
-                                Esse sistema ganhou alguns prêmios regionais e atendeu à população do município,
-                                auxiliando na solicitação de vacinas.
+                                Durante esse período, aprofundei meus conhecimentos em levantamento de requisitos e na otimização de consultas SQL para garantir a alta disponibilidade dos sistemas. O principal destaque da minha atuação foi o desenvolvimento e manutenção do "Vem Vacina Garanhuns", um sistema crítico para o combate à COVID-19 que atendeu a mais de 100 mil habitantes. Esse sistema exigiu estratégias avançadas para suportar picos de acesso sem comprometer a performance, evitando aglomerações na campanha de vacinação. Além disso, atuei em projetos como o Sistema de Almoxarifado e o Sistema de Vigilância Sanitária, otimizando fluxos de trabalho e garantindo conformidade regulatória.
                             </p>`,
         lmts: `<p class="p-title">
-                                Laboratório Multidisciplinar de Tecnologias Sociais(LMTS)
+                                Laboratório Multidisciplinar de Tecnologias Sociais (LMTS)
                                 <br>
-                                <i>Out 2020 - Dez 2022(2 anos e 2 meses)</i>
+                                <i>Out 2020 - Jan 2023 (2 anos e 4 meses)</i>
                             </p>
 
                             <p>
-                                O LMTS foi minha porta de entrada para o profissionalismo, permitindo-me colocar em
-                                prática os conhecimentos adquiridos ao longo dos anos e refinando minhas habilidades por
-                                meio dos desafios diários e desafiadores que me foram entregues. Meu primeiro projeto no
-                                laboratório foi o desenvolvimento de um sistema de Almoxarifado, que hoje atende tanto a
-                                UFAPE quanto a UPE do município de Garanhuns. Esse projeto, em específico, reuniu uma
-                                equipe multidisciplinar, composta por profissionais da área que atuam diretamente com
-                                Almoxarifado, além da equipe do laboratório, que envolveu integrantes de ambas as
-                                faculdades beneficiadas.</br></br>
+                                O LMTS foi minha porta de entrada para o mercado profissional, permitindo-me colocar em prática os conhecimentos acadêmicos em projetos que atendem à comunidade. Iniciei atuando como Desenvolvedor Full Stack, modelando e desenvolvendo soluções robustas utilizando o framework Laravel (PHP). Para a interface visual, utilizei o motor de templates Blade em conjunto com jQuery e frameworks como Bootstrap e Tailwind CSS, facilitando a estilização e garantindo uma experiência de usuário intuitiva.
 
-                                Em grande parte da minha jornada, atuei como Desenvolvedor Web Full Stack, onde modelei,
-                                desenvolvi e dei manutenção a diversos sistemas que hoje atendem à comunidade. Como
-                                principal tecnologia, utilizei o framework Laravel (PHP), escolhido pelo laboratório por
-                                ser robusto, fácil de utilizar, ter bom suporte ao desenvolvedor e, principalmente, por
-                                ter uma metodologia de desenvolvimento web voltada para esse framework. Para a parte
-                                visual, o próprio Laravel possui um gerenciador de templates chamado Blade, que também é
-                                fácil de ser utilizado e permite o reuso de código graças à sua estrutura de templates.
-                                Como complemento, utilizei jQuery para dar dinamicidade aos sites, em conjunto com o
-                                Bootstrap, que facilita a estilização e personalização dos layouts.</br></br>
-
-                                Com o tempo e a entrada de novos integrantes no laboratório, fui designado para o papel
-                                de gerente de projetos, onde atuei diretamente em todos os sistemas web que o
-                                laboratório desenvolvia e mantinha na época, mesmo que indiretamente. Meu papel envolvia
-                                cuidar do ciclo de desenvolvimento, utilizando uma metodologia de SCRUM adaptada à
-                                realidade do laboratório, servir como Tech Lead, ensinando e orientando os
-                                desenvolvedores na criação de código bem estruturado e, principalmente, na parte inicial
-                                do aprendizado de cada aluno, além de avaliar pull requests antes do deploy das novas
-                                funcionalidades.
-
-
+                                Meu primeiro grande projeto foi a Plataforma Eletrônica de Gestão de Almoxarifados, que hoje atende à UFAPE e à UPE. Com o crescimento do laboratório, assumi também os papéis de Scrum Master e Gerente de Projetos (Tech Lead). Liderando equipes multidisciplinares, fui responsável pelo ciclo de desenvolvimento de plataformas como o Sistema CEUA e o Simulador ENADE. Minhas atribuições incluíam a prototipagem de interfaces no Figma, avaliação de pull requests, ensino e onboarding de novos desenvolvedores, garantindo entregas alinhadas às metodologias ágeis.
                             </p>`,
 
     },
     "en": {
+        hero_eyebrow: `Software Portfolio`,
+        hero_summary: `I build web, mobile, and backend systems with a focus on architecture, reliability, security, and real-world impact.`,
+        hero_highlight_1_label: `Core scope`,
+        hero_highlight_1_value: `Backend · Full Stack · Mobile`,
+        hero_highlight_2_label: `Experience`,
+        hero_highlight_2_value: `Building software since 2013`,
+        hero_highlight_3_label: `Current focus`,
+        hero_highlight_3_value: `Architecture, critical applications, and product evolution`,
         nav_presentation: `Presentation`,
         nav_systems: `Systems`,
         nav_experience: `Experiences`,
@@ -310,8 +194,11 @@ const translations = {
             My journey in the technology field began in 2013, at the age of 14, when I started the Technical Course in Informatics at the Federal Institute of Pernambuco (IFPE). Over four years of training, I built a solid foundation in software development, covering different stacks such as mobile, web, front-end, desktop, and embedded systems. My graduation project explored embedded systems, showcasing my ability to innovate in diverse areas.<br>
             After completing the technical course, I began my bachelor's degree in Computer Science at the Federal University of Agreste of Pernambuco (UFAPE), where I continued to expand my knowledge. During this period, I had my first professional contact at the Multidisciplinary Laboratory of Social Technologies (LMTS), where I developed institutional and social systems using the Laravel (PHP) framework integrated with Blade and jQuery.<br>
             In 2021, during the pandemic, I was hired by the Health Department of Garanhuns to lead the development and maintenance of Vem Vacina Garanhuns, a crucial system in the fight against COVID-19, which benefited more than 100,000 residents. This experience strengthened my expertise in modeling and maintaining systems with significant social impact.<br>
-            Currently, I work at Overdrive Software and Consulting, where I am part of the internal products team. I started by developing the back-end of systems using Laravel (PHP) and later expanded my skills with .NET (C#). Recently, I have focused on mobile development with Flutter (Dart), creating and maintaining robust applications, including a game that demonstrates my ability to meet innovative demands.
-            With extensive experience in programming languages such as Java, PHP, Dart, C#, C, Python, and Ruby, my journey reflects a commitment to continuous learning and adaptation to the most relevant technologies to meet market needs.
+            Currently, I work at Overdrive Software and Consulting, where I am part of the internal products team. I started by developing the back-end of systems using Laravel (PHP) and later expanded my skills with .NET (C#). Recently, I have focused on mobile development with Flutter (Dart), creating and maintaining robust applications, including a game that demonstrates my ability to meet innovative demands.<br>
+
+            In parallel with my professional work, I started a Master's degree in Computer Science focused on security in Kubernetes ecosystems. The research investigates the impact of countermeasures such as Zero Trust, mTLS, network policies, and secure credential management on the latency of distributed systems, using a polyglot multiplayer game as an experimental environment.<br>
+
+            With extensive experience in programming languages such as Java, PHP, Dart, C#, C, Python, and Ruby, my journey reflects a commitment to continuous learning, technical rigor, and adaptation to the most relevant technologies for both market and applied research needs.
         `,
         title: `Introducing, <span>Edgar Vital</span>`,
         technical_information: `Technical Information`,
@@ -329,6 +216,19 @@ const translations = {
         new_technologies_adaptation: `Adaptability to New Technologies`,
         systems: `Systems`,
         act_as_colaborator_in: `Acted as a collaborator in...`,
+        masters: `<p class="p-title">
+                                Master's in Computer Science at UFAPE
+                                <br>
+                                <i>2025 - 2027 (In progress)</i>
+                            </p>
+
+                            <p>
+                                My master's research empirically investigates vulnerabilities in microservice architectures orchestrated by Kubernetes. The study uses a multiplayer game developed in a polyglot architecture, with services in C# and Golang, as a laboratory environment to evaluate infrastructure protection strategies in real-time scenarios.
+                            </p>
+
+                            <p>
+                                The methodology is structured into three complementary phases: mapping the cluster attack surface with tools such as Kube-hunter and Kube-bench; infrastructure hardening with Zero Trust practices, mTLS authentication, network isolation, and secure credential management with HashiCorp Vault; and impact analysis, comparing security gains with the latency and performance cost imposed on applications. The objective is to consolidate practical guidelines for secure and optimized environments aligned with modern distributed systems requirements.
+                            </p>`,
         pega: `Electronic Platform for Warehouse Management (PEGA)`,
         pega_description: `A web application created through the UFAPE-LMTS/UPE partnership to digitize warehouse management, simplifying tasks such as inventory control and material request handling. Its main functionalities include:<br>
 
@@ -355,65 +255,55 @@ const translations = {
         academic_and_professional: `Academic and Professional`,
         academic: `Academic`,
         professional: `Professional`,
-        ufape: `<p class="p-title">
-                            Federal University of Agreste of Pernambuco (UFAPE)
-                            <br>
-                            <i>2018 - 2023</i>
-                          </p>
+                                ufape: `<p class="p-title">
+                                                                                                                                                                                                                                Bachelor's Degree in Computer Science at UFRPE and UFAPE
+                                                        <br>
+                                                        <i>2018 - 2023</i>
+                                                    </p>
                   
-                          <p>
-                            UFAPE represented the natural continuation of my professional journey. After leaving IFPE, I was still uncertain about the specific field I wanted to pursue, but I knew I wanted to work with technology. The Computer Science course emerged as the most viable option, as it provides a broad perspective on various aspects of computing and its related areas. One of the first challenges of the degree was dealing with the heavy workload of mathematical subjects, such as Calculus 1 and 2, as well as Physics and Analytical Geometry. Overcoming this initial stage with complex foundational subjects was crucial to reaching the technological part of the course, which becomes more intense in the advanced semesters.</br></br>
-                  
-                            The course was, in many ways, a deepening of the knowledge I had already acquired at IFPE, but it also exposed me to new subjects that expanded my understanding and provided me with a more robust skill set. Areas like Computer Networks, where I learned about protocols, network architectures, and security; Distributed Systems, focusing on scalability and communication between systems; and Algorithm Design and Analysis, which improved my ability to develop efficient solutions, stood out. Other important subjects included Entrepreneurship, which broadened my perspective on innovation and product creation, and Compilers, which gave me a deeper understanding of programming language construction and operation. Software Engineering, in turn, was essential in refining my skills in project management, documentation, and applying methodologies like SCRUM and agile development practices.</br></br>
-                  
-                            During the course, I found the direction I wanted for my career when I joined the Multidisciplinary Laboratory for Social Technologies (LMTS). This experience brought me closer to programming, an area I excelled in due to my prior experience. Developing and solving problems through system creation quickly became my passion. At LMTS, I was able to collaborate with both the academic community and the population of Garanhuns, contributing technological innovations that brought practical benefits and improved existing processes. I dedicated the remaining years of my degree to this purpose, enhancing my skills as a developer and actively participating in dozens of projects, working on different stages of the development cycle, from conception and prototyping to implementation and maintenance.</br></br>
-                  
-                            My final year project was actually the first project I worked on when I joined LMTS: the Electronic Warehouse Management Platform. This project was an opportunity to apply advanced software development concepts, such as creating secure RESTful APIs, version control practices, and using robust frameworks. More details about this system are recorded in the systems section of this portfolio.
-                          </p>`,
+                                                    <p>
+                                                        The degree continued my technical formation and provided a broad view of networks, distributed systems, scalability, and algorithm design and analysis. Courses such as Software Engineering were instrumental in refining project management practices and agile methodologies.
 
-        ifpe: `<p class="p-title">
-                            Federal Institute of Pernambuco (IFPE)
-                            <br>
-                            <i>2013 - 2017</i>
-                          </p>
-                  
-                          <p>
-                            IFPE marked the beginning of my journey into programming, where I had my first contact with programming logic through the Robô Mind software. This program presented a playful game-like environment where the goal was to control a robot to solve logical challenges, such as navigating from one point to another and recursively escaping a maze. This initial learning was essential in developing the logical reasoning needed for programming.</br></br>
-                  
-                            Later, I was introduced to the Java programming language, which accompanied me throughout the four years of the course. Initially, I developed programs focused solely on information processing, with textual outputs printed on the terminal. Over time, this practice evolved into creating basic graphical interfaces using Java's Swing library, which allowed for the creation of windows and visual components like buttons, text boxes, and panels, facilitating the integration between data manipulation logic and a more user-friendly interface.</br></br>
-                  
-                            During the course, I was also introduced to Software Engineering concepts, learning requirement elicitation techniques, use case analysis, and software modeling with UML diagrams—knowledge that remains useful to this day. Additionally, I studied relational database concepts, including data normalization and crafting complex SQL queries. Simultaneously, I had my first contact with web development, using PrimeFaces—a component library for JavaServer Faces (JSF)—that enabled the creation of rich and interactive web interfaces, complemented by auxiliary technologies like CSS and JavaScript to enhance user experience.</br></br>
-                  
-                            Throughout the course, the focus on object-oriented programming was constant, a concept that underpins Java and significantly influenced my growth as a programmer. Understanding and applying the pillars of object orientation (encapsulation, inheritance, polymorphism, and abstraction) became a fundamental skill that I continue to use in current projects.</br></br>
-                  
-                            My final year project was an excellent opportunity to apply all these skills to solve a real problem. Garanhuns, being a semi-rural city, has many surrounding farms where cooking gas is generated using biodigesters. These biodigesters utilize animal waste as fuel for a bacterial process that results in cooking gas production. The Environmental Science course at IFPE sought to measure the efficiency of this gas generation, which is where my project came in. Together with my team, we developed a gas flow measurement system using an Arduino board, pressure sensors, and low-cost electronic components, integrated with a C/C++ program that collected and processed data in real-time. This system provided an accessible and effective way to monitor gas production, contributing to research and better use of this technology by the local population.
-                          </p>`,
+                                                        During the course, I joined the Multidisciplinary Laboratory of Social Technologies (LMTS), where I dedicated much of my undergraduate years to developing institutional systems and community solutions. My final project focused on enhancing the Electronic Warehouse Management Platform, applying advanced RESTful API and software architecture concepts.
+                                                    </p>`,
 
-        overdrive: `<p class="p-title">
-                                 Overdrive Software and Consulting
-                                 <br>
-                                 <i>Feb 2023 - Present</i>
-                               </p>
+                                ifpe: `<p class="p-title">
+                                                                                                                                                                                                                                Technical Course in Informatics at IFPE
+                                                        <br>
+                                                        <i>2013 - 2017</i>
+                                                    </p>
                   
-                               <p>
-                                 Upon finishing my degree, it was time to officially enter the job market. I was hired by Overdrive Software and Consulting as a mid-level back-end developer to work in the company’s internal products team. My first project was developing an industrial cleaning system, where I created a RESTful API to integrate two stacks: Front-end and Mobile. Implementing this API presented a significant challenge: each company registered in the system needed its own database instance, requiring the creation of a physical multi-tenancy architecture. To overcome this difficulty, I studied data segmentation solutions and multi-database management in SQL servers, developing and implementing the architecture effectively within a few weeks.</br></br>
+                                                    <p>
+                                                        IFPE marked the start of my programming journey, where I was introduced to computational logic and the Java language. I learned object-oriented programming, requirements engineering, UML modeling, and interface development with Java Swing and PrimeFaces (JSF).
+
+                                                        For my final project, I developed a C/C++ system integrated with an Arduino and pressure sensors to measure, in real time, the efficiency of cooking gas production in local biodigesters, contributing to Environmental Science research.
+                                                    </p>`,
+
+                                overdrive: `<p class="p-title">
+                                                                 Overdrive Software and Consulting
+                                                                 <br>
+                                                                 <i>Feb 2023 - Apr 2026(3 years and 3 months)</i>
+                                                             </p>
                   
-                                 After completing this system’s development, a need arose for maintenance on one of the client systems, which used C#. This provided me with the opportunity to broaden my knowledge with another backend framework, .NET. Working with .NET (C#) was a smooth transition due to the similar structure of fundamental concepts across the languages and frameworks. During this period, I developed RESTful services, optimized database operations using Entity Framework, and implemented dependency injection and Clean Architecture practices to ensure code scalability and maintainability.</br></br>
-                  
-                                 Currently, Overdrive is exploring a new strategy to enter the mobile market. In this context, I was given the opportunity to work on a stack different from my usual one. I was tasked with developing a game using Flutter (Dart), which allowed me to work on both the back-end and mobile front-end. Flutter stood out for its ability to develop cross-platform applications efficiently using a unified codebase. This experience has been exciting and productive for my career as it required implementing responsive interfaces, managing application state using packages like Provider, and integrating backend functionalities with SQLite for storing user data internally on their devices. The game, called *Game Studio Manager*, is already available on Google Play Store and will soon be launched for Apple devices.
-                               </p>`,
-        lmts: `<p class="p-title">
+                                                             <p>
+                                                                 Upon finishing my degree, I began at Overdrive Software and Consulting as a mid-level Back-End Developer on the internal products team. My first project was an industrial cleaning system, where I built a robust RESTful API to integrate front-end and mobile clients. The implementation required a physical multi-tenancy architecture using PostgreSQL to isolate each customer's data, containerized environments with Docker, and AWS S3 for storage.
+
+                                                                 Later, I maintained and developed client portfolio systems such as SolAgora and Banco Money Plus using C# and .NET. This work reinforced my skills in RESTful service design, database optimization with Entity Framework, and Clean Architecture practices for scalable code.
+
+                                                                 As the company expanded into mobile, I also worked as a Mobile Developer using Flutter (Dart). I contributed to FitEasyAI (integrated with OpenAI and Firebase) and Game Studio Manager, and participated in the white-label banking app for Banco Money Plus, handling secure financial APIs, local persistence with SQLite, and state management with Provider and MVVM patterns.
+
+                                                                 In April 2026 I completed my tenure at Overdrive, concluding a period of strong professional growth and end-to-end delivery across backend and mobile domains.
+                                                             </p>`,
+                lmts: `<p class="p-title">
                 Multidisciplinary Laboratory of Social Technologies (LMTS)
                 <br>
-                <i>Oct 2020 - Dec 2022 (2 years and 2 months)</i>
+                <i>Oct 2020 - Jan 2023 (2 years and 4 months)</i>
             </p>
 
             <p>
-                The LMTS was my entry point into professionalism, allowing me to put into practice the knowledge I had acquired over the years and refine my skills through the daily and challenging tasks assigned to me. My first project at the laboratory was the development of an Inventory Management System, which today serves both UFAPE and UPE in the city of Garanhuns. This project, in particular, brought together a multidisciplinary team composed of professionals directly working with Inventory Management, as well as the laboratory team, which involved members from both universities.
+                The LMTS was my entry point into professional software development, where I applied academic knowledge to community-facing projects. I began as a Full Stack Developer using Laravel (PHP) and Blade, combined with jQuery and utility frameworks like Bootstrap and Tailwind to deliver intuitive user experiences.
 
-                For most of my journey, I worked as a Full Stack Web Developer, where I designed, developed, and maintained various systems that now serve the community. The main technology I used was the Laravel (PHP) framework, chosen by the laboratory for its robustness, ease of use, strong developer support, and especially for its web development methodology. For the front end, Laravel has a template manager called Blade, which is also easy to use and allows for code reuse thanks to its template structure. Additionally, I used jQuery to make websites dynamic, along with Bootstrap to simplify the styling and customization of layouts.
-
-                Over time, as new team members joined the lab, I was assigned to the role of project manager, where I worked directly on all the web systems the laboratory was developing and maintaining at that time, even if indirectly. My role involved overseeing the development cycle using an adapted SCRUM methodology for the laboratory's context, serving as a Tech Lead, teaching and mentoring developers in creating well-structured code, especially during the initial learning phase of each student, and reviewing pull requests before deploying new features.
+                My first major project was an Inventory Management Platform that today serves UFAPE and UPE. As the lab grew, I took on Scrum Master and Tech Lead responsibilities, coordinating multidisciplinary teams, prototyping interfaces in Figma, reviewing pull requests, and onboarding new developers while ensuring deliveries aligned with agile practices.
             </p>`,
         saude: `<p class="p-title">
                 Health Secretary of Garanhuns
@@ -435,6 +325,15 @@ const translations = {
 
 // Função para atualizar o conteúdo
 function updateContent(language) {
+    $("#hero_eyebrow").html(translations[language].hero_eyebrow);
+    $("#hero_summary").html(translations[language].hero_summary);
+    $("#hero_highlight_1_label").html(translations[language].hero_highlight_1_label);
+    $("#hero_highlight_1_value").html(translations[language].hero_highlight_1_value);
+    $("#hero_highlight_2_label").html(translations[language].hero_highlight_2_label);
+    $("#hero_highlight_2_value").html(translations[language].hero_highlight_2_value);
+    $("#hero_highlight_3_label").html(translations[language].hero_highlight_3_label);
+    $("#hero_highlight_3_value").html(translations[language].hero_highlight_3_value);
+
     $(".nav_presentation").html(translations[language].nav_presentation);
     $(".nav_systems").html(translations[language].nav_systems);
     $(".nav_experiences").html(translations[language].nav_experience);
@@ -455,10 +354,11 @@ function updateContent(language) {
     $("#new_techs_adaptation").html(translations[language].new_technologies_adaptation);
     $("#systems_title").html(translations[language].systems);
     $("#act_as_collaborator").html(translations[language].act_as_colaborator_in);
+    $("#masters").html(translations[language].masters);
     $("#pega").html(translations[language].pega);
     $("#pega_description").html(translations[language].pega_description);
     $(".system-certification-label").html(translations[language].system_certification);
-    $(".system-link").html(translations[language].system_link);
+    $(".system-link-label").html(translations[language].system_link);
     $("#submeta").html(translations[language].submeta);
     $("#submeta_description").html(translations[language].submeta_description);
     $("#certifica").html(translations[language].certifica);
@@ -472,7 +372,7 @@ function updateContent(language) {
     $("#experience").html(translations[language].experience);
     $("#academic_and_professional").html(translations[language].academic_and_professional);
     $("#academic_btn").html(translations[language].academic);
-    $("#professional").html(translations[language].professional);
+    $("#professional_btn").html(translations[language].professional);
     $("#ufape").html(translations[language].ufape);
     $("#ifpe").html(translations[language].ifpe);
     $("#overdrive").html(translations[language].overdrive);
