@@ -10,7 +10,8 @@ const translations = {
         hero_highlight_3_label: `Foco atual`,
         hero_highlight_3_value: `Arquitetura, aplicações críticas e evolução de produtos`,
         nav_presentation: `Apresentação`,
-        nav_systems: `Sistemas`,
+        nav_systems: `Sistemas Web`,
+        nav_apps: `Apps`,
         nav_experience: `Experiências`,
         description: `
             Minha trajetória na área de tecnologia começou em 2013, aos 14 anos, quando ingressei no curso Técnico em Informática no Instituto Federal de Pernambuco (IFPE). Durante os quatro anos de formação, adquiri uma base sólida em desenvolvimento de software, abrangendo diferentes stacks, como mobile, web, front-end, desktop e sistemas embarcados. Meu trabalho de conclusão de curso explorou sistemas embarcados, demonstrando minha capacidade de inovar em áreas diversas.<br>
@@ -36,7 +37,7 @@ const translations = {
         problem_resolution: `Resolução de Problemas`,
         agile_development: `Desenvolvimento Ágil`,
         new_technologies_adaptation: `Adaptabilidade a Novas Tecnologias`,
-        systems: `Sistemas`,
+        systems: `Sistemas Web`,
         act_as_colaborator_in: `Atuei como colaborador em...`,
         masters: `<p class="p-title">
                                 Mestrado em Ciência da Computação na UFAPE
@@ -101,17 +102,41 @@ const translations = {
                                 desenvolvimento da universidade, elevando tanto seu reconhecimento em aspecto nacional e
                                 internacional quanto a possibilidade de maior visibilidade para investimentos público e
                                 privado. O software foi desenvolvido como uma plataforma online, utilizando a linguagem
-                                de programação PHP com a framework Laravel.<br>
+                                de programação PHP com o framework Laravel.<br>
 
                                 O sistema conta com recursos que viabilizam a simulação da prova, com simulados que se
-                                adaptam com a real necessidade do curso, podendo ser modeladas da forma que o usuário
-                                queira, por exemplo, priorizando as disciplinas em que os alunos estão com deficit. Para
+                                adaptam com a real necessidade do curso, podendo ser modelados da forma que o usuário
+                                queira, por exemplo, priorizando as disciplinas em que os alunos estão com déficit. Para
                                 garantir provas mais consistentes, todas as questões são adicionadas por docentes,
-                                separadas pela disciplina, ao banco de dados da universidade. A medida que os alunos
+                                separadas pela disciplina, ao banco de dados da universidade. À medida que os alunos
                                 concluírem um simulado, os coordenadores receberão estatísticas das respostas,
                                 organizadas pela área do conhecimento, para que os mesmos possam conhecer melhor o
                                 perfil de aprendizagem dos seus estudantes, e a partir dessa informação definir sua
                                 estratégia de atuação.`,
+        sol_agora: `Sol Agora`,
+        sol_agora_description: `A Sol Agora é uma plataforma digital especializada em soluções de financiamento para
+                                energia solar, conectando clientes, integradores e distribuidores em um ecossistema 100%
+                                online. O sistema visa desburocratizar o acesso à energia limpa, oferecendo processos
+                                ágeis com segurança biométrica e assinatura digital integradas. Suas funcionalidades
+                                principais incluem:<br><br>
+
+                                <strong>Para Clientes:</strong> realizar simulações de financiamento com parcelas fixas;
+                                solicitar crédito para projetos residenciais, comerciais, industriais ou do agronegócio;
+                                gerenciar pagamentos e emitir 2ª via de boletos; e monitorar remotamente o desempenho do sistema
+                                solar instalado.<br><br>
+
+                                <strong>Para Integradores:</strong> gestão completa de propostas e acompanhamento online
+                                de status; acesso a um canal de atendimento exclusivo via WhatsApp; recebimento direto
+                                de pagamentos e conexão com mais de 50 distribuidores parceiros para agilizar a
+                                aquisição de equipamentos.`,
+                    mobile_apps_title: `Apps Mobile`,
+                    mobile_apps_subtitle: `Atuei como colaborador nesses apps publicados...`,
+                    bmp_app_title: `BMP`,
+                    bmp_app_description: `A BMP é uma conta digital que facilita sua vida. Não precisa de convite nem de esperar em fila para aprovar seu cadastro. De forma amigável e com poucos cliques, você abre sua conta. Você faz tudo pelo celular, sem perder tempo com filas e sem burocracia.`,
+                    gsm_app_title: `Game Studio Manager`,
+                    gsm_app_description: `Neste jogo idle, você se torna o desenvolvedor de jogos dos seus sonhos. Crie jogos incríveis escolhendo entre diversos gêneros e subgêneros, além de diferentes plataformas.`,
+                    app_frame_placeholder: `Adicione o print do app aqui`,
+                    app_play_store_label: `Ver na Play Store`,
         experience: `Experiência`,
         academic_and_professional: `Acadêmica e Profissional`,
         academic: `Acadêmica`,
@@ -188,7 +213,8 @@ const translations = {
         hero_highlight_3_label: `Current focus`,
         hero_highlight_3_value: `Architecture, critical applications, and product evolution`,
         nav_presentation: `Presentation`,
-        nav_systems: `Systems`,
+        nav_systems: `Web Systems`,
+        nav_apps: `Apps`,
         nav_experience: `Experiences`,
         description: `
             My journey in the technology field began in 2013, at the age of 14, when I started the Technical Course in Informatics at the Federal Institute of Pernambuco (IFPE). Over four years of training, I built a solid foundation in software development, covering different stacks such as mobile, web, front-end, desktop, and embedded systems. My graduation project explored embedded systems, showcasing my ability to innovate in diverse areas.<br>
@@ -214,7 +240,7 @@ const translations = {
         problem_resolution: `Problem Solving`,
         agile_development: `Agile Development`,
         new_technologies_adaptation: `Adaptability to New Technologies`,
-        systems: `Systems`,
+        systems: `Web Systems`,
         act_as_colaborator_in: `Acted as a collaborator in...`,
         masters: `<p class="p-title">
                                 Master's in Computer Science at UFAPE
@@ -251,6 +277,20 @@ const translations = {
         enade_description: `This project arose from a demand by the Office of Undergraduate Studies (PREG) and the need to prepare UFRPE students for the National Student Performance Exam (ENADE), which is an important test for the university's development, increasing its national and international recognition as well as its visibility for public and private investments. The software was developed as an online platform using the PHP programming language with the Laravel framework.<br>
 
         The system includes features that enable exam simulation, with mock tests adapted to the real needs of the course. For example, they can be modeled to prioritize disciplines where students have deficits. To ensure more consistent tests, all questions are added by professors, categorized by discipline, into the university's database. As students complete a mock test, coordinators receive statistics on the responses, organized by knowledge area, allowing them to better understand their students' learning profiles and define their strategy accordingly.`,
+        sol_agora: `Sol Agora`,
+        sol_agora_description: `Sol Agora is a digital platform specialized in solar energy financing solutions, connecting customers, integrators, and distributors in a fully online ecosystem. The system aims to simplify access to clean energy through agile workflows with integrated biometric security and digital signatures. Its main features include:<br><br>
+
+        <strong>For Customers:</strong> run financing simulations with fixed installments; request credit for residential, commercial, industrial, or agribusiness projects; manage payments and issue duplicate boleto slips; and remotely monitor the performance of the installed solar system.<br><br>
+
+        <strong>For Integrators:</strong> complete proposal management and online status tracking; access to an exclusive support channel via WhatsApp; direct payment reception; and connection to over 50 partner distributors to speed up equipment acquisition.`,
+        mobile_apps_title: `Mobile Apps`,
+        mobile_apps_subtitle: `I acted as a collaborator in these published apps...`,
+        bmp_app_title: `BMP`,
+        bmp_app_description: `BMP is a digital account that makes your daily life easier. You do not need an invitation and you do not have to wait in line for account approval. In a friendly flow with just a few taps, you open your account. You do everything on your phone, without wasting time in lines and without bureaucracy.`,
+        gsm_app_title: `Game Studio Manager`,
+        gsm_app_description: `In this idle game, you become the game developer of your dreams. Build amazing games by choosing from multiple genres and subgenres, plus different platforms.`,
+        app_frame_placeholder: `Add the app screenshot here`,
+        app_play_store_label: `View on Play Store`,
         experience: `Experience`,
         academic_and_professional: `Academic and Professional`,
         academic: `Academic`,
@@ -336,6 +376,7 @@ function updateContent(language) {
 
     $(".nav_presentation").html(translations[language].nav_presentation);
     $(".nav_systems").html(translations[language].nav_systems);
+    $(".nav_apps").html(translations[language].nav_apps);
     $(".nav_experiences").html(translations[language].nav_experience);
     $(".description").html(translations[language].description);
     $(".title").html(translations[language].title);
@@ -369,6 +410,17 @@ function updateContent(language) {
     $("#ceua_description").html(translations[language].ceua_description);
     $("#enade").html(translations[language].enade);
     $("#enade_description").html(translations[language].enade_description);
+    $("#sol_agora").html(translations[language].sol_agora);
+    $("#sol_agora_description").html(translations[language].sol_agora_description);
+    $("#mobile_apps_title").html(translations[language].mobile_apps_title);
+    $("#mobile_apps_subtitle").html(translations[language].mobile_apps_subtitle);
+    $("#bmp_app_title").html(translations[language].bmp_app_title);
+    $("#bmp_app_description").html(translations[language].bmp_app_description);
+    $("#gsm_app_title").html(translations[language].gsm_app_title);
+    $("#gsm_app_description").html(translations[language].gsm_app_description);
+    $("#bmp_screen_placeholder").html(translations[language].app_frame_placeholder);
+    $("#gsm_screen_placeholder").html(translations[language].app_frame_placeholder);
+    $(".app-play-store-label").html(translations[language].app_play_store_label);
     $("#experience").html(translations[language].experience);
     $("#academic_and_professional").html(translations[language].academic_and_professional);
     $("#academic_btn").html(translations[language].academic);
